@@ -501,8 +501,8 @@ end
 192.168.1.5 is the address of another gateway. You can't run on itself this way, use the audio object.
 
 ```
-http.request ("http://192.168.1.5/audio?action=setvolume&value=100")
-http.request ("http://192.168.1.5/audio?action=play&url=http://funny-dog.surge.sh/door_bell.mp3")
+http.request ("http://192.168.1.5/api/audio?action=setvolume&value=100")
+http.request ("http://192.168.1.5/api/audio?action=play&url=http://funny-dog.surge.sh/door_bell.mp3")
 ```
 
 ### Creating of virtual properties
